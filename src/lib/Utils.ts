@@ -9,7 +9,7 @@ import { Event } from "bdsx/eventtarget";
 import { join } from "path";
 
 const configPath: string = join(process.cwd(), '..', 'config');
-const path: string = join(configPath, 'BetterChat');
+const path: string = join(configPath, 'Replant');
 const file: string = join(path, 'configuration.json');
 
 export function parse(): string[] {
