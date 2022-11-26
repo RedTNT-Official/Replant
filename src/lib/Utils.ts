@@ -12,6 +12,8 @@ const configPath: string = join(process.cwd(), '..', 'config');
 const path: string = join(configPath, 'Replant');
 const file: string = join(path, 'configuration.json');
 
+parse();
+
 export function parse(): string[] {
     if (!existsSync(path)) dump([
         "minecraft:wheat",
